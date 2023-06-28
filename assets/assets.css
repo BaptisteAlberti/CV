@@ -112,3 +112,29 @@ ul{
 .div{
     font-weight:"bold";
 }
+
+footer{
+    background-color: #782221;
+    text-align: center;
+    width: 1160px;
+}
+
+.twitter {
+    height : 10%;
+    width: 10%;  
+}
+
+.facebook{
+    height : 10%;
+    width: 10%;
+}
+
+.instagram {
+    height : 10%;
+    width: 10%;
+}
+
+.discord{
+    height : 10%;
+    width: 10%;
+}
