@@ -95,6 +95,7 @@ img{
     object-fit: cover;
     border-radius: 50%;
     box-shadow: 0 0 30px black;
+    cursor:zoom-in; 
 }
 
 #flex-row{
@@ -137,4 +138,28 @@ footer{
 .discord{
     height : 10%;
     width: 10%;
+}
+
+.dateCV{
+    text-align: center;
+}
+
+.sous-titre{
+    text-align: center;
+}
+
+.centresdinteret{
+    text-align: justify;
+}
+ul:hover {
+    border-right: 2em solid #782221;
+}
+
+.twitter:hover, .facebook:hover, .instagram:hover, .discord:hover{
+    opacity: 0.5 ;
+}
+
+a{
+    color: white;
+    text-underline-offset: none;
 }
