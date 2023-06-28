@@ -161,5 +161,10 @@ ul:hover {
 
 a{
     color: white;
-    text-underline-offset: none;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    text-decoration: underline;
 }
