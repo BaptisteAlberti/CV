@@ -19,6 +19,10 @@ h1{
     font-family: "Lato", "sans serif";
 }
 
+h2 {
+    background-color: #dbc2a4;
+}
+
 .informations-dev figure, figure img {
     border-radius: 50%;
 }
@@ -47,7 +51,7 @@ h1{
     list-style: none;
 }
 p {
-    text-align: center;
+    text-align:justify;
     font-family: "Raleway", "sans serif"
 }
 
