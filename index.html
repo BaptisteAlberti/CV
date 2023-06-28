@@ -11,18 +11,19 @@
     <header>
         <div class="informations-dev">
             <figure>
-                <img src="../CV/Annexes/Image CV CEF.jpg" alt="Photo CV"> </br>
+                <img class="PhotoCV" src="../CV/Annexes/Image CV CEF.jpg" alt="PhotoCV" id="pic" tabindex="0">
+            </br>
             </figure>
             <h1>BAPTISTE ALBERTI</h1>
-            <p>Développeur web junior <br>
+            <p class="sous-titre">Développeur web junior <br>
             En reconversion professionnelle 
             </p>
         </div>
         <nav class="menu">
             <ul>
-                <li><a href="https://www.google.fr/maps/place/Sous+la+Moncelle,+08140+La+Moncelle/@49.6895695,4.9847445,17z/data=!3m1!4b1!4m6!3m5!1s0x47ea6f6bd8e8569d:0x20cb638cb79fd96!8m2!3d49.6895661!4d4.9873248!16s%2Fg%2F1hhhk49px?entry=ttu/">66 rue du Désespoir 08140 La Moncelle</a></li> 
-                <li><a href="mailto"> nullepart@gmail.com </a></li>
-                <li><a href="tel">06.66.77.88.99 </a></li>
+                <li><a href="https://www.google.fr/maps/place/17+Rue+du+Camp+d'Attila,+51000+Ch%C3%A2lons-en-Champagne/@48.9641879,4.365311,17z/data=!3m1!4b1!4m6!3m5!1s0x47ebde2f4ab6eb89:0x4b9c34e572d8b379!8m2!3d48.9641844!4d4.3678913!16s%2Fg%2F11cppkg70s?entry=ttu/">17 rue du Camp d'Attila <br> 51000 Châlons-en-Champagne</a></li> 
+                <li><a href="mailto"> alberti.baptiste@gmail.com </a></li>
+                <li><a href="tel">06.88.53.59.32</a></li>
             </ul>
         </nav>
     </header>
@@ -41,7 +42,7 @@
                     <li>Anglais - niveau intermédiaire</li>
                 </ul>
                 <h2>Centres d'intérêt</h2>
-                <ul>
+                <ul class="centresdinteret">
                     <li>Littérature : lecture et écriture.</li>
                     <li>Arts : théâtre, musique (pratique du piano pendant dix ans), cinéma.</li>
                     <li>Médias, presses, actualités politiques.</li>
@@ -52,18 +53,18 @@
                 <h2>Expériences professionnelles</h2>
                 <p>
                     <ul><strong>DEPUIS 2017 A CE JOUR : ENSEIGNANT EN LETTRES MODERNES.</strong>
-                        <li>Travail et coopération en équipe</li>
-                        <li>Gestion de groupes d'élèves</li>
-                        <li>Création de contenu éducatif</li>
+                        <li>Travail et coopération en équipe.</li>
+                        <li>Gestion de groupes d'élèves.</li>
+                        <li>Création de contenu éducatif.</li>
                         <li>Planification des tâches : réunions, évaluations des élèves, etc.</li>
-                        <li>Anglais écrit et parlé</li>
+                        <li>Anglais écrit et parlé.</li>
                     </ul>
-                    <ul><strong>2017 : PARTICIPATION AU PROJET NATIONAL "NON AU HARCELEMENT : REALISATION D'UNE COURTE VIDEO SUR CE THEME.</strong>
+                    <ul><strong>DE 2017 à 2018 : PARTICIPATION AU PROJET NATIONAL "NON AU HARCELEMENT : REALISATION D'UNE COURTE VIDEO SUR CE THEME.</strong>
                         <li>Création d'un scénatio en concertation avec les élèves ; lancement du projet.</li>
                         <li>Réflexion sur les moyens techniques et littéraires à mettre en oeuvre pour réaliser la vidéo.</li>
                         <li>Travail en équipe avec la vie scolaire.</li>
                     </ul>
-                    <ul><strong>2015 A 2016 : TUTEUR DES ETUDIANTS A DISTANCE DE LETTRES MODERNES DE L'UNIVERSITE PARIS NANTERRE (92).</strong>
+                    <ul><strong>DE 2015 A 2016 : TUTEUR DES ETUDIANTS A DISTANCE DE LETTRES MODERNES DE L'UNIVERSITE PARIS NANTERRE (92).</strong>
                         <li>Autonomie dans le travail.</li>
                         <li>Gestion de l'outil informatique et des ressources numériques.</li>
                         <li>Relationnel avec les étudiants et animation du forum de discussion par diverses activités.</li>
@@ -108,6 +109,10 @@
     <img class="facebook" src="../CV/assets/css/fonts/facebook.svg" alt="facebook">
     <img class="instagram" src="../CV/assets/css/fonts/instagram.svg" alt="instagram">
     <img class="discord" src="../CV/assets/css/fonts/discord.svg" alt="discord">
+    <p class="dateCV">Dernière mise à jour le 
+        <input type="date" id="start" name="dateCV" 
+        value=2023-06-28 min="2023-01-01" max="2023-12-31">
+    </p>
 </footer>
 </body>
 </html>
