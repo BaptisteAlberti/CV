@@ -6,6 +6,9 @@
     src: url(../style.css/fonts/Raleway-VariableFont_wght.ttf), format('truetype');
 }
 
+header{
+    font-family: "Lato", "sans serif";
+}
 p{
     font-family: "Raleway", serif;
 }
