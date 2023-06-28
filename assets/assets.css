@@ -1,4 +1,7 @@
-
+*html, ::before, ::after{
+    margin: 0;
+    padding: 0;
+}
 
 body {
     background-color: white;
@@ -19,6 +22,11 @@ h1{
     font-family: "Lato", "sans serif";
 }
 
+h2{
+    font-family: "Lato", "sans serif";
+    background-color: #dbc2a4 ;
+}
+
 .informations-dev figure, figure img {
     border-radius: 50%;
 }
@@ -35,6 +43,9 @@ h1{
 
 .menu {
    background-color: #2c1d27;
+   height: 50px;
+   color: white;
+   margin: 0;
 }
 
 .menu ul {
@@ -93,4 +104,11 @@ img{
     justify-content: space-between;
     background-color: #2c1d27;
     
+}
+
+ul{
+    font-family: "Raleway";
+}
+.div{
+    font-weight:"bold";
 }
